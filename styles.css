@@ -653,3 +653,39 @@ h5 {
 .map img {
   height: 13.5rem;
 }
+@media (max-width: 1500px) {
+  .profile-listings h4 {
+    font-size: 0.75rem;
+  }
+  .profile-listings p {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+  }
+}
+@media (max-width: 1300px) {
+  .profile-listings h4 {
+    font-size: 0.7rem;
+  }
+  .profile-listings p {
+    font-size: 0.6rem;
+    margin-top: 0.6rem;
+  }
+}
+@media (max-height: 950px) and (max-width: 1400px) {
+  .profile-listings h4 {
+    font-size: 0.5rem;
+  }
+  .profile-listings p {
+    font-size: 0.4rem;
+    margin-top: 0.3rem;
+  }
+}
+@media (max-height: 950px) {
+  .map img,
+  .item-description h4 {
+    display: none;
+  }
+  .comments {
+    min-height: 5rem;
+  }
+}
