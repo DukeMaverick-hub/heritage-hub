@@ -680,7 +680,7 @@ h5 {
     margin-top: 0.3rem;
   }
 }
-@media (max-height: 950px) {
+@media (max-height: 850px) {
   .map img,
   .item-description h4 {
     display: none;
